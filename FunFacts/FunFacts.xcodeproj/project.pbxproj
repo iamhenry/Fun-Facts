@@ -91,11 +91,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Henry Moran";
 				TargetAttributes = {
 					BA657E291FB3FB51001C3FEC = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -297,6 +298,7 @@
 				BA657E3E1FB3FB52001C3FEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
