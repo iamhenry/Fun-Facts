@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        funFactLabel.text = "An interesting fact!"
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,6 +23,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func showFact() {
+        funFactLabel.text = "New Fact!"
+    }
+    
 }
 
